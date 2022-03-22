@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:1.1.0-sdk-projectjson
+FROM mcr.microsoft.com/dotnet/core/sdk:1.1
 
 COPY ./src/project.json /app/webapp/
 COPY ./NuGet.Config /app/
